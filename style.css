@@ -1,0 +1,162 @@
+/*----------------------------------------------Tags-------------------------------------------------------- */
+
+body{
+    background-color: #EEEEEE;
+    margin: 30px 30px 0px;
+}
+footer{
+    position: relative;
+    bottom: 530px;
+    background-color: #222831;
+    padding: 10px 30px;
+    text-align: center;
+}
+footer > a{
+    padding: 5px;
+}
+footer > a> img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+footer > a> img:hover{
+    background-color: #76ABAE;
+}
+footer>p{
+    color: #EEEEEE;
+    font-size: 10px;
+}
+h1{
+    color: #76ABAE;
+    font-size: 50px;
+    margin: 0px;
+    padding: 20px 0px 0px;
+}
+h3{
+    color: #76ABAE;
+    background-color: #31363F;
+    border-radius: 0% 50%;
+    display: inline-block;
+    font-size: 25px;
+    margin: 5px auto;
+    padding: 10px 20px;
+    text-align: center;
+    width: 95%;
+}
+header{
+    background-color: #222831;
+    text-align: center;
+}
+
+/*----------------------------------------------IDs-------------------------------------------------------- */
+
+#honors-and-awards-section{
+    position: relative;
+    right: 480px;
+    bottom: 445px;
+}
+#honors-and-awards-section > ul{
+    padding-left: 20px;
+}
+#info-line-section{
+    background-color: #76ABAE;
+    padding: 10px 0px;
+}
+#info-line-section > p{
+    display: inline-block;
+    margin: 0px 15px;
+    padding: 12px;
+}
+#info-line-section a:link{
+    color: black;
+    text-decoration: none;
+}
+#info-line-section a:hover{
+    color: black;
+    text-decoration: underline;
+}
+#info-line-section a:active{
+    color: black;
+    text-decoration: underline;
+}
+#info-line-section a:visited{
+    color: black;
+    text-decoration: none;
+}
+#objective-section{
+    position: relative;
+    bottom: 650px;
+}
+#punch-line{
+    color: #EEEEEE;
+    margin: 0px;
+    padding: 20px;
+}
+#profile-pic{
+    border: 5px solid #76ABAE;
+    border-radius: 100%;
+    display: block;
+    height: 175px;
+    margin: 10px auto;
+    width: 175px;
+}
+#profile-pic-section{
+    position: relative;
+    bottom: 400px;
+}
+#skills-section{
+    position: relative;
+    bottom: 650px;
+}
+#title{
+    color: #EEEEEE;
+    font-size: 25px;
+    margin: 0px;
+    padding: 10px;
+}
+#profile-pic-section, #objective-section, #skills-section, #honors-and-awards-section{
+    display: inline-block;
+    margin: 5px 20px 5px 0px;
+    width: 30%;
+}
+#objective-section > h3, #skills-section > h3, #honors-and-awards-section > h3{
+    width: 89%;
+}
+#objective-section > p{
+    text-align: justify;
+}
+#work-experience-section, #educational-background-section{
+    display: inline-block;
+    margin: 5px 0px 5px 20px;
+    width: 65%;
+}
+#work-experience-section > ul > li , #educational-background-section > ul > li , #honors-and-awards-section > ul > li {
+    list-style: square;
+}
+
+/*---------------------------------------------Classes------------------------------------------------------ */
+
+.skill-table{
+    width: 100%;
+}
+.skills-table-th{
+    column-span: 2;
+    text-align: left;
+}
+.skill-table > tbody > tr > td{
+    width: 70%;
+}
+.stars-line{
+    width: 30%;
+}
+.stars{
+    width: 15px;
+    height: 15px;
+}
+.work-experience-text-line{
+    text-align: justify;
+}
+.for-up{
+    position: relative;
+    bottom: 500px;
+}
